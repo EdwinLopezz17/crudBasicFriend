@@ -1,0 +1,83 @@
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  background: cadetblue;
+
+  display: grid;
+  place-items: center;
+}
+
+.container{
+  width: 90%;
+  max-width: 800px;
+  display: grid;
+  place-items: center;
+}
+
+.container h2{
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+
+form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.bodyForm{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.input-box{
+  background: deeppink;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  width: 200px;
+  border-radius: 5px;
+}
+.input-box label{
+  font-size: 1.3rem;
+  margin-bottom: 4px;
+  font-weight: bold;
+
+}
+
+.input-box input, select, option{
+  background: floralwhite;
+  border: none;
+  font-size: 1.3rem;
+  padding: 5px 10px;
+}
+
+.optionsRadio{
+  display: flex;
+  flex-direction: row;
+}
+.optionsRadio p{
+  font-size: 1.2rem;
+  margin-left: 8px;
+}
+
+input[type="radio"] {
+  width: 20px;
+}
+
+button{
+  margin: 20px auto;
+  font-size: 1.3rem;
+  padding: 5px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+button:hover{
+  background: deeppink;
+}
+

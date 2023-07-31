@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "age": 20,
+      "civilStatus": "Single",
+      "dni": 76159145,
+      "gender": "Male",
+      "lastName": "Lopez",
+      "name": "Edwin"
+    },
+    {
+      "id": 2,
+      "age": 25,
+      "civilStatus": "Married",
+      "dni": 87456321,
+      "gender": "Female",
+      "lastName": "Smith",
+      "name": "Emily"
+    },
+    {
+      "id": 3,
+      "age": 30,
+      "civilStatus": "Divorced",
+      "dni": 95281734,
+      "gender": "Male",
+      "lastName": "Johnson",
+      "name": "Michael"
+    },
+    {
+      "dni": 78562562,
+      "name": "Clara",
+      "lastName": "Valverde",
+      "age": 23,
+      "gender": "Female",
+      "civilStatus": "Single",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+
+<body>
+
+  <div class="container">
+    <h2>Client Register</h2>
+
+    <form [formGroup]="formAddClient" (ngSubmit)="addClient()">
+
+      <section class="bodyForm">
+        <div class="input-box">
+          <label>DNI</label>
+          <input type="number" placeholder="Ex. 76159145" formControlName="dni">
+        </div>
+
+        <div class="input-box">
+          <label>Name</label>
+          <input type="text" placeholder="Ex. Carlos" formControlName="name">
+        </div>
+
+        <div class="input-box">
+          <label>Last Name</label>
+          <input type="text" placeholder="Ex. Lopez" formControlName="lastName">
+        </div>
+
+        <div class="input-box">
+          <label>Age</label>
+          <input type="number" formControlName="age">
+        </div>
+
+        <div class="input-box">
+          <label>Gender</label>
+          <select formControlName="gender">
+            <option *ngFor="let gender of gendersOptions">
+              {{gender}}
+            </option>
+          </select>
+        </div>
+
+        <div class="input-box">
+          <label>Civil Status</label>
+          <div class="optionsRadio">
+            <input type="radio" name="civilStatus" value="Single" formControlName="civilStatus"> <p>Single</p>
+          </div>
+          <div class="optionsRadio">
+          <input type="radio" name="civilStatus" value="Married"  formControlName="civilStatus"> <p>Married</p>
+          </div>
+        </div>
+      </section>
+      <button type="submit">Add Client</button>
+    </form>
+
+  </div>
+
+
+
+</body>
