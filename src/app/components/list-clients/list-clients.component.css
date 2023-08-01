@@ -1,0 +1,38 @@
+
+body{
+  display: grid;
+  place-items: center;
+}
+.container{
+  width: 90%;
+  display: grid;
+  place-items: center;
+}
+.container h2{
+  text-align: center;
+  margin: 50px auto;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+mat-icon{
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.minimalist-table {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.minimalist-table th,
+.minimalist-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.minimalist-table th {
+  background-color: #f2f2f2;
+}
+

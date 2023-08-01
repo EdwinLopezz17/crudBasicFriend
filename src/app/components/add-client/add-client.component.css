@@ -76,8 +76,20 @@ button{
   cursor: pointer;
   border-radius: 5px;
   border: none;
+  transition: 0.3s;
 }
-button:hover{
+form button:hover{
   background: deeppink;
 }
 
+.btnSeeRegister{
+  background: mediumpurple;
+  width: max-content;
+  border: 1px solid black;
+  font-size: 1rem;
+}
+.btnSeeRegister:hover{
+  cursor: pointer;
+  background: #a88fd9;
+  transform: scale(1.2);
+}

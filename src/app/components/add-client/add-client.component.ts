@@ -45,10 +45,8 @@ export class AddClientComponent implements OnInit{
           alert("Client added successfuly");
         }
       })
-
       return;
     }
-
     alert("Completa todos los campos")
   }
 

@@ -1,15 +1,6 @@
 {
   "users": [
     {
-      "id": 1,
-      "age": 20,
-      "civilStatus": "Single",
-      "dni": 76159145,
-      "gender": "Male",
-      "lastName": "Lopez",
-      "name": "Edwin"
-    },
-    {
       "id": 2,
       "age": 25,
       "civilStatus": "Married",
@@ -28,13 +19,31 @@
       "name": "Michael"
     },
     {
-      "dni": 78562562,
+      "dni": 75489578,
+      "name": "Carlos",
+      "lastName": "Valverde",
+      "age": 28,
+      "gender": "Male",
+      "civilStatus": "Married",
+      "id": 5
+    },
+    {
+      "dni": 76159145,
+      "name": "Edwin",
+      "lastName": "Lopez",
+      "age": 20,
+      "gender": "Male",
+      "civilStatus": "Single",
+      "id": 6
+    },
+    {
+      "dni": 78459585,
       "name": "Clara",
       "lastName": "Valverde",
-      "age": 23,
+      "age": 20,
       "gender": "Female",
       "civilStatus": "Single",
-      "id": 4
+      "id": 7
     }
   ]
 }
